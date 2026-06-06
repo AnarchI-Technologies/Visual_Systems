@@ -1,0 +1,17 @@
+{
+  "name": "anarchi-production-suite",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "ts-node-esm index.ts",
+    "build:collection": "ts-node-esm scripts/massProduce.ts"
+  },
+  "dependencies": {
+    "anarchi-engine": "file:../Visual_Systems"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  }
+}

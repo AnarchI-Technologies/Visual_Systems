@@ -1,0 +1,12 @@
+{
+  "#_instruction_1": "# COPY THIS FILE TO partsBin.json AND FILL IN YOUR DATA #",
+  "#_instruction_2": "# ACCENTS: UNIQUE COLOR KEYS #",
+  "#_instruction_3": "# TEXTURES: BACKGROUND PATTERN KEYS #",
+  "#_instruction_4": "# BEHAVIORS: ANIMATION LOGIC KEYS #",
+  "#_instruction_5": "# BEHAVIOR_CSS: MAPPING OF BEHAVIOR KEYS TO CSS STRING BLOCKS #",
+  "accents": [],
+  "textures": [],
+  "behaviors": [],
+  "vocabularies": {},
+  "behavior_css": {}
+}

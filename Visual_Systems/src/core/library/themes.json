@@ -1,0 +1,1817 @@
+[
+  {
+    "id": "industrial_protocol",
+    "name": "Industrial Protocol",
+    "description": "A harsh, high-contrast industrial interface with signal degradation.",
+    "accentColor": "industrial_orange",
+    "corruptionLevel": 0.4,
+    "textureProfile": "concrete_spray",
+    "glyphBehavior": "brace_frame",
+    "promptVocabulary": [
+      "corroded",
+      "signal loss",
+      "hardened"
+    ],
+    "approved": true
+  },
+  {
+    "id": "bronze_age_acrylic_tint_brace_corner",
+    "name": "Bronze Age Acrylic Tint Brace Corner",
+    "description": "A COMMON deterministic build using bronze_age highlights, acrylic_tint textures, and brace_corner motion behaviors.",
+    "accentColor": "bronze_age",
+    "corruptionLevel": 0.10812687596806976,
+    "textureProfile": "acrylic_tint",
+    "glyphBehavior": "brace_corner",
+    "promptVocabulary": [
+      "encrypted",
+      "stealth",
+      "covert",
+      "classified",
+      "redacted"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "californium_gamma_etched_brass_noise_gate",
+    "name": "Californium Gamma Etched Brass Noise Gate",
+    "description": "A COMMON deterministic build using californium_gamma highlights, etched_brass textures, and noise_gate motion behaviors.",
+    "accentColor": "californium_gamma",
+    "corruptionLevel": 0.37785822960817,
+    "textureProfile": "etched_brass",
+    "glyphBehavior": "noise_gate",
+    "promptVocabulary": [
+      "degraded",
+      "interrupted",
+      "ghosting",
+      "interference",
+      "static"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "flame_burst_interlaced_field_hud_crosshair",
+    "name": "Flame Burst Interlaced Field Hud Crosshair",
+    "description": "A COMMON deterministic build using flame_burst highlights, interlaced_field textures, and hud_crosshair motion behaviors.",
+    "accentColor": "flame_burst",
+    "corruptionLevel": 0.23093783761190584,
+    "textureProfile": "interlaced_field",
+    "glyphBehavior": "hud_crosshair",
+    "promptVocabulary": [
+      "degraded",
+      "interrupted",
+      "ghosting",
+      "interference",
+      "static"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "cobalt_strike_mylar_foil_bit_flip",
+    "name": "Cobalt Strike Mylar Foil Bit Flip",
+    "description": "A UNCOMMON deterministic build using cobalt_strike highlights, mylar_foil textures, and bit_flip motion behaviors.",
+    "accentColor": "cobalt_strike",
+    "corruptionLevel": 0.5951443749918247,
+    "textureProfile": "mylar_foil",
+    "glyphBehavior": "bit_flip",
+    "promptVocabulary": [
+      "degraded",
+      "interrupted",
+      "ghosting",
+      "interference",
+      "static"
+    ],
+    "rarity": "uncommon",
+    "approved": true
+  },
+  {
+    "id": "amethyst_glow_fungal_spore_byte_reverse",
+    "name": "Amethyst Glow Fungal Spore Byte Reverse",
+    "description": "A COMMON deterministic build using amethyst_glow highlights, fungal_spore textures, and byte_reverse motion behaviors.",
+    "accentColor": "amethyst_glow",
+    "corruptionLevel": 0.39224751525303314,
+    "textureProfile": "fungal_spore",
+    "glyphBehavior": "byte_reverse",
+    "promptVocabulary": [
+      "hazardous",
+      "unstable",
+      "leaking",
+      "volatile",
+      "reactive"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "californium_gamma_fan_blade_split_signal",
+    "name": "Californium Gamma Fan Blade Split Signal",
+    "description": "A COMMON deterministic build using californium_gamma highlights, fan_blade textures, and split_signal motion behaviors.",
+    "accentColor": "californium_gamma",
+    "corruptionLevel": 0.15513749634674578,
+    "textureProfile": "fan_blade",
+    "glyphBehavior": "split_signal",
+    "promptVocabulary": [
+      "overclocked",
+      "vibrant",
+      "saturated",
+      "luminescent",
+      "fluorescent"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "fog_bank_rust_bloom_hud_altitude",
+    "name": "Fog Bank Rust Bloom Hud Altitude",
+    "description": "A COMMON deterministic build using fog_bank highlights, rust_bloom textures, and hud_altitude motion behaviors.",
+    "accentColor": "fog_bank",
+    "corruptionLevel": 0.37581146105914986,
+    "textureProfile": "rust_bloom",
+    "glyphBehavior": "hud_altitude",
+    "promptVocabulary": [
+      "corroded",
+      "hardened",
+      "signal loss",
+      "reinforced",
+      "heavy-duty"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "laser_sight_fiberglass_matte_packet_loss",
+    "name": "Laser Sight Fiberglass Matte Packet Loss",
+    "description": "A UNCOMMON deterministic build using laser_sight highlights, fiberglass_matte textures, and packet_loss motion behaviors.",
+    "accentColor": "laser_sight",
+    "corruptionLevel": 0.4929830539084963,
+    "textureProfile": "fiberglass_matte",
+    "glyphBehavior": "packet_loss",
+    "promptVocabulary": [
+      "overclocked",
+      "vibrant",
+      "saturated",
+      "luminescent",
+      "fluorescent"
+    ],
+    "rarity": "uncommon",
+    "approved": true
+  },
+  {
+    "id": "topaz_shine_acrylic_tint_nibble_swap",
+    "name": "Topaz Shine Acrylic Tint Nibble Swap",
+    "description": "A COMMON deterministic build using topaz_shine highlights, acrylic_tint textures, and nibble_swap motion behaviors.",
+    "accentColor": "topaz_shine",
+    "corruptionLevel": 0.3815773191443279,
+    "textureProfile": "acrylic_tint",
+    "glyphBehavior": "nibble_swap",
+    "promptVocabulary": [
+      "encrypted",
+      "stealth",
+      "covert",
+      "classified",
+      "redacted"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "surge_voltage_compression_artifact_center_out",
+    "name": "Surge Voltage Compression Artifact Center Out",
+    "description": "A UNCOMMON deterministic build using surge_voltage highlights, compression_artifact textures, and center_out motion behaviors.",
+    "accentColor": "surge_voltage",
+    "corruptionLevel": 0.5132010013126362,
+    "textureProfile": "compression_artifact",
+    "glyphBehavior": "center_out",
+    "promptVocabulary": [
+      "encrypted",
+      "stealth",
+      "covert",
+      "classified",
+      "redacted"
+    ],
+    "rarity": "uncommon",
+    "approved": true
+  },
+  {
+    "id": "smoke_screen_snow_drift_glitch_rotation",
+    "name": "Smoke Screen Snow Drift Glitch Rotation",
+    "description": "A UNCOMMON deterministic build using smoke_screen highlights, snow_drift textures, and glitch_rotation motion behaviors.",
+    "accentColor": "smoke_screen",
+    "corruptionLevel": 0.3935291695608787,
+    "textureProfile": "snow_drift",
+    "glyphBehavior": "glitch_rotation",
+    "promptVocabulary": [
+      "overclocked",
+      "vibrant",
+      "saturated",
+      "luminescent",
+      "fluorescent"
+    ],
+    "rarity": "uncommon",
+    "approved": true
+  },
+  {
+    "id": "flame_burst_thermal_wrap_brace_curly",
+    "name": "Flame Burst Thermal Wrap Brace Curly",
+    "description": "A COMMON deterministic build using flame_burst highlights, thermal_wrap textures, and brace_curly motion behaviors.",
+    "accentColor": "flame_burst",
+    "corruptionLevel": 0.257153541225398,
+    "textureProfile": "thermal_wrap",
+    "glyphBehavior": "brace_curly",
+    "promptVocabulary": [
+      "overclocked",
+      "vibrant",
+      "saturated",
+      "luminescent",
+      "fluorescent"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "amplitude_peak_lichen_crust_hud_bar_graph",
+    "name": "Amplitude Peak Lichen Crust Hud Bar Graph",
+    "description": "A UNCOMMON deterministic build using amplitude_peak highlights, lichen_crust textures, and hud_bar_graph motion behaviors.",
+    "accentColor": "amplitude_peak",
+    "corruptionLevel": 0.6101283574857694,
+    "textureProfile": "lichen_crust",
+    "glyphBehavior": "hud_bar_graph",
+    "promptVocabulary": [
+      "corroded",
+      "hardened",
+      "signal loss",
+      "reinforced",
+      "heavy-duty"
+    ],
+    "rarity": "uncommon",
+    "approved": true
+  },
+  {
+    "id": "polonium_decay_brushed_nickel_word_align",
+    "name": "Polonium Decay Brushed Nickel Word Align",
+    "description": "A UNCOMMON deterministic build using polonium_decay highlights, brushed_nickel textures, and word_align motion behaviors.",
+    "accentColor": "polonium_decay",
+    "corruptionLevel": 0.5982800556994741,
+    "textureProfile": "brushed_nickel",
+    "glyphBehavior": "word_align",
+    "promptVocabulary": [
+      "hazardous",
+      "unstable",
+      "leaking",
+      "volatile",
+      "reactive"
+    ],
+    "rarity": "uncommon",
+    "approved": true
+  },
+  {
+    "id": "bismuth_irid_rusted_girder_glitch_opacity",
+    "name": "Bismuth Irid Rusted Girder Glitch Opacity",
+    "description": "A UNCOMMON deterministic build using bismuth_irid highlights, rusted_girder textures, and glitch_opacity motion behaviors.",
+    "accentColor": "bismuth_irid",
+    "corruptionLevel": 0.5789424099215772,
+    "textureProfile": "rusted_girder",
+    "glyphBehavior": "glitch_opacity",
+    "promptVocabulary": [
+      "encrypted",
+      "stealth",
+      "covert",
+      "classified",
+      "redacted"
+    ],
+    "rarity": "uncommon",
+    "approved": true
+  },
+  {
+    "id": "industrial_orange_basalt_pillar_border_bleed",
+    "name": "Industrial Orange Basalt Pillar Border Bleed",
+    "description": "A COMMON deterministic build using industrial_orange highlights, basalt_pillar textures, and border_bleed motion behaviors.",
+    "accentColor": "industrial_orange",
+    "corruptionLevel": 0.12128074744249098,
+    "textureProfile": "basalt_pillar",
+    "glyphBehavior": "border_bleed",
+    "promptVocabulary": [
+      "degraded",
+      "interrupted",
+      "ghosting",
+      "interference",
+      "static"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "beam_focus_bayer_matrix_glitch_shear",
+    "name": "Beam Focus Bayer Matrix Glitch Shear",
+    "description": "A COMMON deterministic build using beam_focus highlights, bayer_matrix textures, and glitch_shear motion behaviors.",
+    "accentColor": "beam_focus",
+    "corruptionLevel": 0.08564231274932764,
+    "textureProfile": "bayer_matrix",
+    "glyphBehavior": "glitch_shear",
+    "promptVocabulary": [
+      "corroded",
+      "hardened",
+      "signal loss",
+      "reinforced",
+      "heavy-duty"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "einsteinium_flux_crt_phosphor_glitch_saturation",
+    "name": "Einsteinium Flux Crt Phosphor Glitch Saturation",
+    "description": "A COMMON deterministic build using einsteinium_flux highlights, crt_phosphor textures, and glitch_saturation motion behaviors.",
+    "accentColor": "einsteinium_flux",
+    "corruptionLevel": 0.24986028235780922,
+    "textureProfile": "crt_phosphor",
+    "glyphBehavior": "glitch_saturation",
+    "promptVocabulary": [
+      "corroded",
+      "hardened",
+      "signal loss",
+      "reinforced",
+      "heavy-duty"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "neptunium_trans_polycarbonate_shell_pulse_rhythm",
+    "name": "Neptunium Trans Polycarbonate Shell Pulse Rhythm",
+    "description": "A COMMON deterministic build using neptunium_trans highlights, polycarbonate_shell textures, and pulse_rhythm motion behaviors.",
+    "accentColor": "neptunium_trans",
+    "corruptionLevel": 0.16521457189352107,
+    "textureProfile": "polycarbonate_shell",
+    "glyphBehavior": "pulse_rhythm",
+    "promptVocabulary": [
+      "overclocked",
+      "vibrant",
+      "saturated",
+      "luminescent",
+      "fluorescent"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "ash_grey_grimy_plexiglass_motion_float",
+    "name": "Ash Grey Grimy Plexiglass Motion Float",
+    "description": "A COMMON deterministic build using ash_grey highlights, grimy_plexiglass textures, and motion_float motion behaviors.",
+    "accentColor": "ash_grey",
+    "corruptionLevel": 0.12765910599947086,
+    "textureProfile": "grimy_plexiglass",
+    "glyphBehavior": "motion_float",
+    "promptVocabulary": [
+      "degraded",
+      "interrupted",
+      "ghosting",
+      "interference",
+      "static"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "flame_burst_fan_blade_scan_line_fast",
+    "name": "Flame Burst Fan Blade Scan Line Fast",
+    "description": "A UNCOMMON deterministic build using flame_burst highlights, fan_blade textures, and scan_line_fast motion behaviors.",
+    "accentColor": "flame_burst",
+    "corruptionLevel": 0.5207348371351844,
+    "textureProfile": "fan_blade",
+    "glyphBehavior": "scan_line_fast",
+    "promptVocabulary": [
+      "corroded",
+      "hardened",
+      "signal loss",
+      "reinforced",
+      "heavy-duty"
+    ],
+    "rarity": "uncommon",
+    "approved": true
+  },
+  {
+    "id": "xenon_blue_via_drill_glitch_contrast",
+    "name": "Xenon Blue Via Drill Glitch Contrast",
+    "description": "A UNCOMMON deterministic build using xenon_blue highlights, via_drill textures, and glitch_contrast motion behaviors.",
+    "accentColor": "xenon_blue",
+    "corruptionLevel": 0.627559792346609,
+    "textureProfile": "via_drill",
+    "glyphBehavior": "glitch_contrast",
+    "promptVocabulary": [
+      "corroded",
+      "hardened",
+      "signal loss",
+      "reinforced",
+      "heavy-duty"
+    ],
+    "rarity": "uncommon",
+    "approved": true
+  },
+  {
+    "id": "signal_cyan_basalt_pillar_layout_pinned",
+    "name": "Signal Cyan Basalt Pillar Layout Pinned",
+    "description": "A COMMON deterministic build using signal_cyan highlights, basalt_pillar textures, and layout_pinned motion behaviors.",
+    "accentColor": "signal_cyan",
+    "corruptionLevel": 0.05947251923925898,
+    "textureProfile": "basalt_pillar",
+    "glyphBehavior": "layout_pinned",
+    "promptVocabulary": [
+      "overclocked",
+      "vibrant",
+      "saturated",
+      "luminescent",
+      "fluorescent"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "mist_shroud_obsidian_flow_layout_column",
+    "name": "Mist Shroud Obsidian Flow Layout Column",
+    "description": "A RARE deterministic build using mist_shroud highlights, obsidian_flow textures, and layout_column motion behaviors.",
+    "accentColor": "mist_shroud",
+    "corruptionLevel": 0.6546206128835484,
+    "textureProfile": "obsidian_flow",
+    "glyphBehavior": "layout_column",
+    "promptVocabulary": [
+      "overclocked",
+      "vibrant",
+      "saturated",
+      "luminescent",
+      "fluorescent"
+    ],
+    "rarity": "rare",
+    "approved": true
+  },
+  {
+    "id": "toxic_green_thermal_pad_buffer_stale",
+    "name": "Toxic Green Thermal Pad Buffer Stale",
+    "description": "A COMMON deterministic build using toxic_green highlights, thermal_pad textures, and buffer_stale motion behaviors.",
+    "accentColor": "toxic_green",
+    "corruptionLevel": 0.2945336616847994,
+    "textureProfile": "thermal_pad",
+    "glyphBehavior": "buffer_stale",
+    "promptVocabulary": [
+      "corroded",
+      "hardened",
+      "signal loss",
+      "reinforced",
+      "heavy-duty"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "capacitance_farad_vulcanized_tread_motion_jitter",
+    "name": "Capacitance Farad Vulcanized Tread Motion Jitter",
+    "description": "A UNCOMMON deterministic build using capacitance_farad highlights, vulcanized_tread textures, and motion_jitter motion behaviors.",
+    "accentColor": "capacitance_farad",
+    "corruptionLevel": 0.5990353232413455,
+    "textureProfile": "vulcanized_tread",
+    "glyphBehavior": "motion_jitter",
+    "promptVocabulary": [
+      "overclocked",
+      "vibrant",
+      "saturated",
+      "luminescent",
+      "fluorescent"
+    ],
+    "rarity": "uncommon",
+    "approved": true
+  },
+  {
+    "id": "infrared_polygon_shard_split_signal",
+    "name": "Infrared Polygon Shard Split Signal",
+    "description": "A COMMON deterministic build using infrared highlights, polygon_shard textures, and split_signal motion behaviors.",
+    "accentColor": "infrared",
+    "corruptionLevel": 0.24741964983917888,
+    "textureProfile": "polygon_shard",
+    "glyphBehavior": "split_signal",
+    "promptVocabulary": [
+      "encrypted",
+      "stealth",
+      "covert",
+      "classified",
+      "redacted"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "infrared_blood_spray_split_signal",
+    "name": "Infrared Blood Spray Split Signal",
+    "description": "A UNCOMMON deterministic build using infrared highlights, blood_spray textures, and split_signal motion behaviors.",
+    "accentColor": "infrared",
+    "corruptionLevel": 0.5643027658298673,
+    "textureProfile": "blood_spray",
+    "glyphBehavior": "split_signal",
+    "promptVocabulary": [
+      "degraded",
+      "interrupted",
+      "ghosting",
+      "interference",
+      "static"
+    ],
+    "rarity": "uncommon",
+    "approved": true
+  },
+  {
+    "id": "diamond_cut_rust_bloom_hud_coords",
+    "name": "Diamond Cut Rust Bloom Hud Coords",
+    "description": "A COMMON deterministic build using diamond_cut highlights, rust_bloom textures, and hud_coords motion behaviors.",
+    "accentColor": "diamond_cut",
+    "corruptionLevel": 0.24038890469322613,
+    "textureProfile": "rust_bloom",
+    "glyphBehavior": "hud_coords",
+    "promptVocabulary": [
+      "corroded",
+      "hardened",
+      "signal loss",
+      "reinforced",
+      "heavy-duty"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "californium_gamma_brushed_steel_scan_line_dotted",
+    "name": "Californium Gamma Brushed Steel Scan Line Dotted",
+    "description": "A COMMON deterministic build using californium_gamma highlights, brushed_steel textures, and scan_line_dotted motion behaviors.",
+    "accentColor": "californium_gamma",
+    "corruptionLevel": 0.1333143435484275,
+    "textureProfile": "brushed_steel",
+    "glyphBehavior": "scan_line_dotted",
+    "promptVocabulary": [
+      "overclocked",
+      "vibrant",
+      "saturated",
+      "luminescent",
+      "fluorescent"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "gamma_green_cast_iron_flicker_lamp",
+    "name": "Gamma Green Cast Iron Flicker Lamp",
+    "description": "A RARE deterministic build using gamma_green highlights, cast_iron textures, and flicker_lamp motion behaviors.",
+    "accentColor": "gamma_green",
+    "corruptionLevel": 0.791628935739328,
+    "textureProfile": "cast_iron",
+    "glyphBehavior": "flicker_lamp",
+    "promptVocabulary": [
+      "overclocked",
+      "vibrant",
+      "saturated",
+      "luminescent",
+      "fluorescent"
+    ],
+    "rarity": "rare",
+    "approved": true
+  },
+  {
+    "id": "francium_alkali_snow_drift_top_down_wipe",
+    "name": "Francium Alkali Snow Drift Top Down Wipe",
+    "description": "A COMMON deterministic build using francium_alkali highlights, snow_drift textures, and top_down_wipe motion behaviors.",
+    "accentColor": "francium_alkali",
+    "corruptionLevel": 0.14964545961967976,
+    "textureProfile": "snow_drift",
+    "glyphBehavior": "top_down_wipe",
+    "promptVocabulary": [
+      "encrypted",
+      "stealth",
+      "covert",
+      "classified",
+      "redacted"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "radon_gas_liquid_cooling_glitch_contrast",
+    "name": "Radon Gas Liquid Cooling Glitch Contrast",
+    "description": "A COMMON deterministic build using radon_gas highlights, liquid_cooling textures, and glitch_contrast motion behaviors.",
+    "accentColor": "radon_gas",
+    "corruptionLevel": 0.32628745408955284,
+    "textureProfile": "liquid_cooling",
+    "glyphBehavior": "glitch_contrast",
+    "promptVocabulary": [
+      "corroded",
+      "hardened",
+      "signal loss",
+      "reinforced",
+      "heavy-duty"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "signal_cyan_rusted_girder_hud_bar_graph",
+    "name": "Signal Cyan Rusted Girder Hud Bar Graph",
+    "description": "A COMMON deterministic build using signal_cyan highlights, rusted_girder textures, and hud_bar_graph motion behaviors.",
+    "accentColor": "signal_cyan",
+    "corruptionLevel": 0.19544134819610384,
+    "textureProfile": "rusted_girder",
+    "glyphBehavior": "hud_bar_graph",
+    "promptVocabulary": [
+      "overclocked",
+      "vibrant",
+      "saturated",
+      "luminescent",
+      "fluorescent"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "smoke_screen_polycarbonate_shell_motion_zigzag",
+    "name": "Smoke Screen Polycarbonate Shell Motion Zigzag",
+    "description": "A COMMON deterministic build using smoke_screen highlights, polycarbonate_shell textures, and motion_zigzag motion behaviors.",
+    "accentColor": "smoke_screen",
+    "corruptionLevel": 0.16977363701558132,
+    "textureProfile": "polycarbonate_shell",
+    "glyphBehavior": "motion_zigzag",
+    "promptVocabulary": [
+      "degraded",
+      "interrupted",
+      "ghosting",
+      "interference",
+      "static"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "astatine_rare_ripstop_fabric_checksum_fail",
+    "name": "Astatine Rare Ripstop Fabric Checksum Fail",
+    "description": "A COMMON deterministic build using astatine_rare highlights, ripstop_fabric textures, and checksum_fail motion behaviors.",
+    "accentColor": "astatine_rare",
+    "corruptionLevel": 0.2069619565554168,
+    "textureProfile": "ripstop_fabric",
+    "glyphBehavior": "checksum_fail",
+    "promptVocabulary": [
+      "hazardous",
+      "unstable",
+      "leaking",
+      "volatile",
+      "reactive"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "francium_alkali_bayer_matrix_overflow_glitch",
+    "name": "Francium Alkali Bayer Matrix Overflow Glitch",
+    "description": "A COMMON deterministic build using francium_alkali highlights, bayer_matrix textures, and overflow_glitch motion behaviors.",
+    "accentColor": "francium_alkali",
+    "corruptionLevel": 0.05343517626146799,
+    "textureProfile": "bayer_matrix",
+    "glyphBehavior": "overflow_glitch",
+    "promptVocabulary": [
+      "degraded",
+      "interrupted",
+      "ghosting",
+      "interference",
+      "static"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "magma_flow_silicone_rubber_hud_ticker",
+    "name": "Magma Flow Silicone Rubber Hud Ticker",
+    "description": "A RARE deterministic build using magma_flow highlights, silicone_rubber textures, and hud_ticker motion behaviors.",
+    "accentColor": "magma_flow",
+    "corruptionLevel": 0.6598128967502651,
+    "textureProfile": "silicone_rubber",
+    "glyphBehavior": "hud_ticker",
+    "promptVocabulary": [
+      "hazardous",
+      "unstable",
+      "leaking",
+      "volatile",
+      "reactive"
+    ],
+    "rarity": "rare",
+    "approved": true
+  },
+  {
+    "id": "polonium_decay_radioactive_dust_zoom_punch",
+    "name": "Polonium Decay Radioactive Dust Zoom Punch",
+    "description": "A UNCOMMON deterministic build using polonium_decay highlights, radioactive_dust textures, and zoom_punch motion behaviors.",
+    "accentColor": "polonium_decay",
+    "corruptionLevel": 0.5560204864924011,
+    "textureProfile": "radioactive_dust",
+    "glyphBehavior": "zoom_punch",
+    "promptVocabulary": [
+      "corroded",
+      "hardened",
+      "signal loss",
+      "reinforced",
+      "heavy-duty"
+    ],
+    "rarity": "uncommon",
+    "approved": true
+  },
+  {
+    "id": "forest_hazard_vhs_tracking_brace_pipe",
+    "name": "Forest Hazard Vhs Tracking Brace Pipe",
+    "description": "A COMMON deterministic build using forest_hazard highlights, vhs_tracking textures, and brace_pipe motion behaviors.",
+    "accentColor": "forest_hazard",
+    "corruptionLevel": 0.1288249026553067,
+    "textureProfile": "vhs_tracking",
+    "glyphBehavior": "brace_pipe",
+    "promptVocabulary": [
+      "overclocked",
+      "vibrant",
+      "saturated",
+      "luminescent",
+      "fluorescent"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "clay_earth_compression_artifact_hud_altitude",
+    "name": "Clay Earth Compression Artifact Hud Altitude",
+    "description": "A COMMON deterministic build using clay_earth highlights, compression_artifact textures, and hud_altitude motion behaviors.",
+    "accentColor": "clay_earth",
+    "corruptionLevel": 0.2230673857886643,
+    "textureProfile": "compression_artifact",
+    "glyphBehavior": "hud_altitude",
+    "promptVocabulary": [
+      "degraded",
+      "interrupted",
+      "ghosting",
+      "interference",
+      "static"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "ember_red_oily_asphalt_nibble_swap",
+    "name": "Ember Red Oily Asphalt Nibble Swap",
+    "description": "A UNCOMMON deterministic build using ember_red highlights, oily_asphalt textures, and nibble_swap motion behaviors.",
+    "accentColor": "ember_red",
+    "corruptionLevel": 0.5101698045158938,
+    "textureProfile": "oily_asphalt",
+    "glyphBehavior": "nibble_swap",
+    "promptVocabulary": [
+      "hazardous",
+      "unstable",
+      "leaking",
+      "volatile",
+      "reactive"
+    ],
+    "rarity": "uncommon",
+    "approved": true
+  },
+  {
+    "id": "capacitance_farad_polycarbonate_shell_top_down_wipe",
+    "name": "Capacitance Farad Polycarbonate Shell Top Down Wipe",
+    "description": "A COMMON deterministic build using capacitance_farad highlights, polycarbonate_shell textures, and top_down_wipe motion behaviors.",
+    "accentColor": "capacitance_farad",
+    "corruptionLevel": 0.2498691558434623,
+    "textureProfile": "polycarbonate_shell",
+    "glyphBehavior": "top_down_wipe",
+    "promptVocabulary": [
+      "encrypted",
+      "stealth",
+      "covert",
+      "classified",
+      "redacted"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "deep_sea_teal_solder_mask_data_leak",
+    "name": "Deep Sea Teal Solder Mask Data Leak",
+    "description": "A UNCOMMON deterministic build using deep_sea_teal highlights, solder_mask textures, and data_leak motion behaviors.",
+    "accentColor": "deep_sea_teal",
+    "corruptionLevel": 0.5550453012605459,
+    "textureProfile": "solder_mask",
+    "glyphBehavior": "data_leak",
+    "promptVocabulary": [
+      "overclocked",
+      "vibrant",
+      "saturated",
+      "luminescent",
+      "fluorescent"
+    ],
+    "rarity": "uncommon",
+    "approved": true
+  },
+  {
+    "id": "brass_shell_tempered_glass_layout_inset",
+    "name": "Brass Shell Tempered Glass Layout Inset",
+    "description": "A COMMON deterministic build using brass_shell highlights, tempered_glass textures, and layout_inset motion behaviors.",
+    "accentColor": "brass_shell",
+    "corruptionLevel": 0.11627747304639931,
+    "textureProfile": "tempered_glass",
+    "glyphBehavior": "layout_inset",
+    "promptVocabulary": [
+      "hazardous",
+      "unstable",
+      "leaking",
+      "volatile",
+      "reactive"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "chrome_finish_solder_mask_bottom_up_fill",
+    "name": "Chrome Finish Solder Mask Bottom Up Fill",
+    "description": "A COMMON deterministic build using chrome_finish highlights, solder_mask textures, and bottom_up_fill motion behaviors.",
+    "accentColor": "chrome_finish",
+    "corruptionLevel": 0.05282606887009411,
+    "textureProfile": "solder_mask",
+    "glyphBehavior": "bottom_up_fill",
+    "promptVocabulary": [
+      "degraded",
+      "interrupted",
+      "ghosting",
+      "interference",
+      "static"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "amethyst_glow_pumice_stone_hud_timer",
+    "name": "Amethyst Glow Pumice Stone Hud Timer",
+    "description": "A UNCOMMON deterministic build using amethyst_glow highlights, pumice_stone textures, and hud_timer motion behaviors.",
+    "accentColor": "amethyst_glow",
+    "corruptionLevel": 0.37554316493091433,
+    "textureProfile": "pumice_stone",
+    "glyphBehavior": "hud_timer",
+    "promptVocabulary": [
+      "hazardous",
+      "unstable",
+      "leaking",
+      "volatile",
+      "reactive"
+    ],
+    "rarity": "uncommon",
+    "approved": true
+  },
+  {
+    "id": "capacitance_farad_epoxy_resin_motion_drift_x",
+    "name": "Capacitance Farad Epoxy Resin Motion Drift X",
+    "description": "A COMMON deterministic build using capacitance_farad highlights, epoxy_resin textures, and motion_drift_x motion behaviors.",
+    "accentColor": "capacitance_farad",
+    "corruptionLevel": 0.04843564662665765,
+    "textureProfile": "epoxy_resin",
+    "glyphBehavior": "motion_drift_x",
+    "promptVocabulary": [
+      "overclocked",
+      "vibrant",
+      "saturated",
+      "luminescent",
+      "fluorescent"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "cobalt_strike_point_render_split_signal",
+    "name": "Cobalt Strike Point Render Split Signal",
+    "description": "A COMMON deterministic build using cobalt_strike highlights, point_render textures, and split_signal motion behaviors.",
+    "accentColor": "cobalt_strike",
+    "corruptionLevel": 0.15998801859737594,
+    "textureProfile": "point_render",
+    "glyphBehavior": "split_signal",
+    "promptVocabulary": [
+      "encrypted",
+      "stealth",
+      "covert",
+      "classified",
+      "redacted"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "uranium_depleted_blood_spray_zoom_punch",
+    "name": "Uranium Depleted Blood Spray Zoom Punch",
+    "description": "A LEGENDARY deterministic build using uranium_depleted highlights, blood_spray textures, and zoom_punch motion behaviors.",
+    "accentColor": "uranium_depleted",
+    "corruptionLevel": 0.8601740590855699,
+    "textureProfile": "blood_spray",
+    "glyphBehavior": "zoom_punch",
+    "promptVocabulary": [
+      "hazardous",
+      "unstable",
+      "leaking",
+      "volatile",
+      "reactive"
+    ],
+    "rarity": "legendary",
+    "approved": true
+  },
+  {
+    "id": "resistance_ohm_obsidian_flow_word_align",
+    "name": "Resistance Ohm Obsidian Flow Word Align",
+    "description": "A UNCOMMON deterministic build using resistance_ohm highlights, obsidian_flow textures, and word_align motion behaviors.",
+    "accentColor": "resistance_ohm",
+    "corruptionLevel": 0.350517442945721,
+    "textureProfile": "obsidian_flow",
+    "glyphBehavior": "word_align",
+    "promptVocabulary": [
+      "corroded",
+      "hardened",
+      "signal loss",
+      "reinforced",
+      "heavy-duty"
+    ],
+    "rarity": "uncommon",
+    "approved": true
+  },
+  {
+    "id": "signal_cyan_moss_patch_latency_lag",
+    "name": "Signal Cyan Moss Patch Latency Lag",
+    "description": "A UNCOMMON deterministic build using signal_cyan highlights, moss_patch textures, and latency_lag motion behaviors.",
+    "accentColor": "signal_cyan",
+    "corruptionLevel": 0.505635024386416,
+    "textureProfile": "moss_patch",
+    "glyphBehavior": "latency_lag",
+    "promptVocabulary": [
+      "encrypted",
+      "stealth",
+      "covert",
+      "classified",
+      "redacted"
+    ],
+    "rarity": "uncommon",
+    "approved": true
+  },
+  {
+    "id": "obsidian_shard_wireframe_mesh_motion_rebound",
+    "name": "Obsidian Shard Wireframe Mesh Motion Rebound",
+    "description": "A COMMON deterministic build using obsidian_shard highlights, wireframe_mesh textures, and motion_rebound motion behaviors.",
+    "accentColor": "obsidian_shard",
+    "corruptionLevel": 0.26023990636624905,
+    "textureProfile": "wireframe_mesh",
+    "glyphBehavior": "motion_rebound",
+    "promptVocabulary": [
+      "hazardous",
+      "unstable",
+      "leaking",
+      "volatile",
+      "reactive"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "cobalt_strike_sandblasted_zinc_linear_scan",
+    "name": "Cobalt Strike Sandblasted Zinc Linear Scan",
+    "description": "A COMMON deterministic build using cobalt_strike highlights, sandblasted_zinc textures, and linear_scan motion behaviors.",
+    "accentColor": "cobalt_strike",
+    "corruptionLevel": 0.37992421425160977,
+    "textureProfile": "sandblasted_zinc",
+    "glyphBehavior": "linear_scan",
+    "promptVocabulary": [
+      "corroded",
+      "hardened",
+      "signal loss",
+      "reinforced",
+      "heavy-duty"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "ember_red_flux_residue_desync_drift",
+    "name": "Ember Red Flux Residue Desync Drift",
+    "description": "A UNCOMMON deterministic build using ember_red highlights, flux_residue textures, and desync_drift motion behaviors.",
+    "accentColor": "ember_red",
+    "corruptionLevel": 0.4672785443262407,
+    "textureProfile": "flux_residue",
+    "glyphBehavior": "desync_drift",
+    "promptVocabulary": [
+      "hazardous",
+      "unstable",
+      "leaking",
+      "volatile",
+      "reactive"
+    ],
+    "rarity": "uncommon",
+    "approved": true
+  },
+  {
+    "id": "berkelium_beta_fungal_spore_frame_rupture",
+    "name": "Berkelium Beta Fungal Spore Frame Rupture",
+    "description": "A COMMON deterministic build using berkelium_beta highlights, fungal_spore textures, and frame_rupture motion behaviors.",
+    "accentColor": "berkelium_beta",
+    "corruptionLevel": 0.1935841365182924,
+    "textureProfile": "fungal_spore",
+    "glyphBehavior": "frame_rupture",
+    "promptVocabulary": [
+      "encrypted",
+      "stealth",
+      "covert",
+      "classified",
+      "redacted"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "topaz_shine_diamond_plate_null_pointer",
+    "name": "Topaz Shine Diamond Plate Null Pointer",
+    "description": "A COMMON deterministic build using topaz_shine highlights, diamond_plate textures, and null_pointer motion behaviors.",
+    "accentColor": "topaz_shine",
+    "corruptionLevel": 0.2699876500318256,
+    "textureProfile": "diamond_plate",
+    "glyphBehavior": "null_pointer",
+    "promptVocabulary": [
+      "encrypted",
+      "stealth",
+      "covert",
+      "classified",
+      "redacted"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "antimony_metal_polycarbonate_shell_ghost_echo",
+    "name": "Antimony Metal Polycarbonate Shell Ghost Echo",
+    "description": "A COMMON deterministic build using antimony_metal highlights, polycarbonate_shell textures, and ghost_echo motion behaviors.",
+    "accentColor": "antimony_metal",
+    "corruptionLevel": 0.1305483951059009,
+    "textureProfile": "polycarbonate_shell",
+    "glyphBehavior": "ghost_echo",
+    "promptVocabulary": [
+      "overclocked",
+      "vibrant",
+      "saturated",
+      "luminescent",
+      "fluorescent"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "krypton_green_frost_crystal_top_down_wipe",
+    "name": "Krypton Green Frost Crystal Top Down Wipe",
+    "description": "A LEGENDARY deterministic build using krypton_green highlights, frost_crystal textures, and top_down_wipe motion behaviors.",
+    "accentColor": "krypton_green",
+    "corruptionLevel": 0.905018051199511,
+    "textureProfile": "frost_crystal",
+    "glyphBehavior": "top_down_wipe",
+    "promptVocabulary": [
+      "encrypted",
+      "stealth",
+      "covert",
+      "classified",
+      "redacted"
+    ],
+    "rarity": "legendary",
+    "approved": true
+  },
+  {
+    "id": "opal_fire_point_render_glitch_rotation",
+    "name": "Opal Fire Point Render Glitch Rotation",
+    "description": "A UNCOMMON deterministic build using opal_fire highlights, point_render textures, and glitch_rotation motion behaviors.",
+    "accentColor": "opal_fire",
+    "corruptionLevel": 0.424836063056822,
+    "textureProfile": "point_render",
+    "glyphBehavior": "glitch_rotation",
+    "promptVocabulary": [
+      "hazardous",
+      "unstable",
+      "leaking",
+      "volatile",
+      "reactive"
+    ],
+    "rarity": "uncommon",
+    "approved": true
+  },
+  {
+    "id": "forest_hazard_diamond_plate_latency_lag",
+    "name": "Forest Hazard Diamond Plate Latency Lag",
+    "description": "A COMMON deterministic build using forest_hazard highlights, diamond_plate textures, and latency_lag motion behaviors.",
+    "accentColor": "forest_hazard",
+    "corruptionLevel": 0.03447083716646717,
+    "textureProfile": "diamond_plate",
+    "glyphBehavior": "latency_lag",
+    "promptVocabulary": [
+      "overclocked",
+      "vibrant",
+      "saturated",
+      "luminescent",
+      "fluorescent"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "actinium_lume_kevlar_weave_hud_compass",
+    "name": "Actinium Lume Kevlar Weave Hud Compass",
+    "description": "A COMMON deterministic build using actinium_lume highlights, kevlar_weave textures, and hud_compass motion behaviors.",
+    "accentColor": "actinium_lume",
+    "corruptionLevel": 0.1671485448470522,
+    "textureProfile": "kevlar_weave",
+    "glyphBehavior": "hud_compass",
+    "promptVocabulary": [
+      "overclocked",
+      "vibrant",
+      "saturated",
+      "luminescent",
+      "fluorescent"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "phosphorus_copper_pour_header_corruption",
+    "name": "Phosphorus Copper Pour Header Corruption",
+    "description": "A COMMON deterministic build using phosphorus highlights, copper_pour textures, and header_corruption motion behaviors.",
+    "accentColor": "phosphorus",
+    "corruptionLevel": 0.013463977960274676,
+    "textureProfile": "copper_pour",
+    "glyphBehavior": "header_corruption",
+    "promptVocabulary": [
+      "hazardous",
+      "unstable",
+      "leaking",
+      "volatile",
+      "reactive"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "cobalt_strike_thermal_wrap_brace_slash",
+    "name": "Cobalt Strike Thermal Wrap Brace Slash",
+    "description": "A UNCOMMON deterministic build using cobalt_strike highlights, thermal_wrap textures, and brace_slash motion behaviors.",
+    "accentColor": "cobalt_strike",
+    "corruptionLevel": 0.39595562973732595,
+    "textureProfile": "thermal_wrap",
+    "glyphBehavior": "brace_slash",
+    "promptVocabulary": [
+      "corroded",
+      "hardened",
+      "signal loss",
+      "reinforced",
+      "heavy-duty"
+    ],
+    "rarity": "uncommon",
+    "approved": true
+  },
+  {
+    "id": "pearl_sheen_oxidized_copper_checksum_fail",
+    "name": "Pearl Sheen Oxidized Copper Checksum Fail",
+    "description": "A COMMON deterministic build using pearl_sheen highlights, oxidized_copper textures, and checksum_fail motion behaviors.",
+    "accentColor": "pearl_sheen",
+    "corruptionLevel": 0.3428404739673221,
+    "textureProfile": "oxidized_copper",
+    "glyphBehavior": "checksum_fail",
+    "promptVocabulary": [
+      "corroded",
+      "hardened",
+      "signal loss",
+      "reinforced",
+      "heavy-duty"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "krypton_green_oxidized_copper_ghost_echo",
+    "name": "Krypton Green Oxidized Copper Ghost Echo",
+    "description": "A RARE deterministic build using krypton_green highlights, oxidized_copper textures, and ghost_echo motion behaviors.",
+    "accentColor": "krypton_green",
+    "corruptionLevel": 0.6823501043247319,
+    "textureProfile": "oxidized_copper",
+    "glyphBehavior": "ghost_echo",
+    "promptVocabulary": [
+      "hazardous",
+      "unstable",
+      "leaking",
+      "volatile",
+      "reactive"
+    ],
+    "rarity": "rare",
+    "approved": true
+  },
+  {
+    "id": "frost_bite_point_render_scan_line_dashed",
+    "name": "Frost Bite Point Render Scan Line Dashed",
+    "description": "A COMMON deterministic build using frost_bite highlights, point_render textures, and scan_line_dashed motion behaviors.",
+    "accentColor": "frost_bite",
+    "corruptionLevel": 0.0191254036526475,
+    "textureProfile": "point_render",
+    "glyphBehavior": "scan_line_dashed",
+    "promptVocabulary": [
+      "degraded",
+      "interrupted",
+      "ghosting",
+      "interference",
+      "static"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "chrome_finish_water_bead_hud_altitude",
+    "name": "Chrome Finish Water Bead Hud Altitude",
+    "description": "A COMMON deterministic build using chrome_finish highlights, water_bead textures, and hud_altitude motion behaviors.",
+    "accentColor": "chrome_finish",
+    "corruptionLevel": 0.20871179104234183,
+    "textureProfile": "water_bead",
+    "glyphBehavior": "hud_altitude",
+    "promptVocabulary": [
+      "hazardous",
+      "unstable",
+      "leaking",
+      "volatile",
+      "reactive"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "current_flow_fan_blade_sync_lock",
+    "name": "Current Flow Fan Blade Sync Lock",
+    "description": "A COMMON deterministic build using current_flow highlights, fan_blade textures, and sync_lock motion behaviors.",
+    "accentColor": "current_flow",
+    "corruptionLevel": 0.26889650960325007,
+    "textureProfile": "fan_blade",
+    "glyphBehavior": "sync_lock",
+    "promptVocabulary": [
+      "corroded",
+      "hardened",
+      "signal loss",
+      "reinforced",
+      "heavy-duty"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "signal_cyan_kevlar_weave_checksum_fail",
+    "name": "Signal Cyan Kevlar Weave Checksum Fail",
+    "description": "A COMMON deterministic build using signal_cyan highlights, kevlar_weave textures, and checksum_fail motion behaviors.",
+    "accentColor": "signal_cyan",
+    "corruptionLevel": 0.2873845590542029,
+    "textureProfile": "kevlar_weave",
+    "glyphBehavior": "checksum_fail",
+    "promptVocabulary": [
+      "corroded",
+      "hardened",
+      "signal loss",
+      "reinforced",
+      "heavy-duty"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "amethyst_glow_stipple_noise_scan_line_thin",
+    "name": "Amethyst Glow Stipple Noise Scan Line Thin",
+    "description": "A COMMON deterministic build using amethyst_glow highlights, stipple_noise textures, and scan_line_thin motion behaviors.",
+    "accentColor": "amethyst_glow",
+    "corruptionLevel": 0.1659071540985147,
+    "textureProfile": "stipple_noise",
+    "glyphBehavior": "scan_line_thin",
+    "promptVocabulary": [
+      "corroded",
+      "hardened",
+      "signal loss",
+      "reinforced",
+      "heavy-duty"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "phosphorus_ink_blot_neon_buzz",
+    "name": "Phosphorus Ink Blot Neon Buzz",
+    "description": "A UNCOMMON deterministic build using phosphorus highlights, ink_blot textures, and neon_buzz motion behaviors.",
+    "accentColor": "phosphorus",
+    "corruptionLevel": 0.38564914941072637,
+    "textureProfile": "ink_blot",
+    "glyphBehavior": "neon_buzz",
+    "promptVocabulary": [
+      "encrypted",
+      "stealth",
+      "covert",
+      "classified",
+      "redacted"
+    ],
+    "rarity": "uncommon",
+    "approved": true
+  },
+  {
+    "id": "californium_gamma_scanline_overlay_brace_chevron",
+    "name": "Californium Gamma Scanline Overlay Brace Chevron",
+    "description": "A COMMON deterministic build using californium_gamma highlights, scanline_overlay textures, and brace_chevron motion behaviors.",
+    "accentColor": "californium_gamma",
+    "corruptionLevel": 0.13656592088980202,
+    "textureProfile": "scanline_overlay",
+    "glyphBehavior": "brace_chevron",
+    "promptVocabulary": [
+      "degraded",
+      "interrupted",
+      "ghosting",
+      "interference",
+      "static"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "ash_grey_oxidized_copper_brace_slash",
+    "name": "Ash Grey Oxidized Copper Brace Slash",
+    "description": "A UNCOMMON deterministic build using ash_grey highlights, oxidized_copper textures, and brace_slash motion behaviors.",
+    "accentColor": "ash_grey",
+    "corruptionLevel": 0.4962631556352801,
+    "textureProfile": "oxidized_copper",
+    "glyphBehavior": "brace_slash",
+    "promptVocabulary": [
+      "hazardous",
+      "unstable",
+      "leaking",
+      "volatile",
+      "reactive"
+    ],
+    "rarity": "uncommon",
+    "approved": true
+  },
+  {
+    "id": "radium_glow_snow_drift_motion_float",
+    "name": "Radium Glow Snow Drift Motion Float",
+    "description": "A UNCOMMON deterministic build using radium_glow highlights, snow_drift textures, and motion_float motion behaviors.",
+    "accentColor": "radium_glow",
+    "corruptionLevel": 0.6108489798257377,
+    "textureProfile": "snow_drift",
+    "glyphBehavior": "motion_float",
+    "promptVocabulary": [
+      "degraded",
+      "interrupted",
+      "ghosting",
+      "interference",
+      "static"
+    ],
+    "rarity": "uncommon",
+    "approved": true
+  },
+  {
+    "id": "radium_glow_wireframe_mesh_scan_line_fast",
+    "name": "Radium Glow Wireframe Mesh Scan Line Fast",
+    "description": "A RARE deterministic build using radium_glow highlights, wireframe_mesh textures, and scan_line_fast motion behaviors.",
+    "accentColor": "radium_glow",
+    "corruptionLevel": 0.7299774311322371,
+    "textureProfile": "wireframe_mesh",
+    "glyphBehavior": "scan_line_fast",
+    "promptVocabulary": [
+      "corroded",
+      "hardened",
+      "signal loss",
+      "reinforced",
+      "heavy-duty"
+    ],
+    "rarity": "rare",
+    "approved": true
+  },
+  {
+    "id": "mist_shroud_rusted_girder_sync_lock",
+    "name": "Mist Shroud Rusted Girder Sync Lock",
+    "description": "A COMMON deterministic build using mist_shroud highlights, rusted_girder textures, and sync_lock motion behaviors.",
+    "accentColor": "mist_shroud",
+    "corruptionLevel": 0.2561004659939854,
+    "textureProfile": "rusted_girder",
+    "glyphBehavior": "sync_lock",
+    "promptVocabulary": [
+      "degraded",
+      "interrupted",
+      "ghosting",
+      "interference",
+      "static"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "ultramarine_dither_pattern_glitch_saturation",
+    "name": "Ultramarine Dither Pattern Glitch Saturation",
+    "description": "A COMMON deterministic build using ultramarine highlights, dither_pattern textures, and glitch_saturation motion behaviors.",
+    "accentColor": "ultramarine",
+    "corruptionLevel": 0.09321932925144845,
+    "textureProfile": "dither_pattern",
+    "glyphBehavior": "glitch_saturation",
+    "promptVocabulary": [
+      "corroded",
+      "hardened",
+      "signal loss",
+      "reinforced",
+      "heavy-duty"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "silicon_wafer_anodized_aluminum_nibble_swap",
+    "name": "Silicon Wafer Anodized Aluminum Nibble Swap",
+    "description": "A COMMON deterministic build using silicon_wafer highlights, anodized_aluminum textures, and nibble_swap motion behaviors.",
+    "accentColor": "silicon_wafer",
+    "corruptionLevel": 0.33793721574483615,
+    "textureProfile": "anodized_aluminum",
+    "glyphBehavior": "nibble_swap",
+    "promptVocabulary": [
+      "degraded",
+      "interrupted",
+      "ghosting",
+      "interference",
+      "static"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "sapphire_depth_corrugated_iron_border_bleed",
+    "name": "Sapphire Depth Corrugated Iron Border Bleed",
+    "description": "A COMMON deterministic build using sapphire_depth highlights, corrugated_iron textures, and border_bleed motion behaviors.",
+    "accentColor": "sapphire_depth",
+    "corruptionLevel": 0.08899364065685528,
+    "textureProfile": "corrugated_iron",
+    "glyphBehavior": "border_bleed",
+    "promptVocabulary": [
+      "hazardous",
+      "unstable",
+      "leaking",
+      "volatile",
+      "reactive"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "iron_sight_moss_patch_motion_rebound",
+    "name": "Iron Sight Moss Patch Motion Rebound",
+    "description": "A COMMON deterministic build using iron_sight highlights, moss_patch textures, and motion_rebound motion behaviors.",
+    "accentColor": "iron_sight",
+    "corruptionLevel": 0.3767459664254267,
+    "textureProfile": "moss_patch",
+    "glyphBehavior": "motion_rebound",
+    "promptVocabulary": [
+      "corroded",
+      "hardened",
+      "signal loss",
+      "reinforced",
+      "heavy-duty"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "ruby_glint_polygon_shard_brace_parenthesis",
+    "name": "Ruby Glint Polygon Shard Brace Parenthesis",
+    "description": "A COMMON deterministic build using ruby_glint highlights, polygon_shard textures, and brace_parenthesis motion behaviors.",
+    "accentColor": "ruby_glint",
+    "corruptionLevel": 0.2962356536932177,
+    "textureProfile": "polygon_shard",
+    "glyphBehavior": "brace_parenthesis",
+    "promptVocabulary": [
+      "overclocked",
+      "vibrant",
+      "saturated",
+      "luminescent",
+      "fluorescent"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "amplitude_peak_cast_iron_motion_sink",
+    "name": "Amplitude Peak Cast Iron Motion Sink",
+    "description": "A COMMON deterministic build using amplitude_peak highlights, cast_iron textures, and motion_sink motion behaviors.",
+    "accentColor": "amplitude_peak",
+    "corruptionLevel": 0.2616688380587204,
+    "textureProfile": "cast_iron",
+    "glyphBehavior": "motion_sink",
+    "promptVocabulary": [
+      "degraded",
+      "interrupted",
+      "ghosting",
+      "interference",
+      "static"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "platinum_link_ink_blot_glitch_stutter",
+    "name": "Platinum Link Ink Blot Glitch Stutter",
+    "description": "A COMMON deterministic build using platinum_link highlights, ink_blot textures, and glitch_stutter motion behaviors.",
+    "accentColor": "platinum_link",
+    "corruptionLevel": 0.3160849203276534,
+    "textureProfile": "ink_blot",
+    "glyphBehavior": "glitch_stutter",
+    "promptVocabulary": [
+      "encrypted",
+      "stealth",
+      "covert",
+      "classified",
+      "redacted"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "astatine_rare_kevlar_weave_layout_inset",
+    "name": "Astatine Rare Kevlar Weave Layout Inset",
+    "description": "A COMMON deterministic build using astatine_rare highlights, kevlar_weave textures, and layout_inset motion behaviors.",
+    "accentColor": "astatine_rare",
+    "corruptionLevel": 0.15760310415500914,
+    "textureProfile": "kevlar_weave",
+    "glyphBehavior": "layout_inset",
+    "promptVocabulary": [
+      "overclocked",
+      "vibrant",
+      "saturated",
+      "luminescent",
+      "fluorescent"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "flame_burst_blood_spray_motion_sway",
+    "name": "Flame Burst Blood Spray Motion Sway",
+    "description": "A COMMON deterministic build using flame_burst highlights, blood_spray textures, and motion_sway motion behaviors.",
+    "accentColor": "flame_burst",
+    "corruptionLevel": 0.21188779745861322,
+    "textureProfile": "blood_spray",
+    "glyphBehavior": "motion_sway",
+    "promptVocabulary": [
+      "hazardous",
+      "unstable",
+      "leaking",
+      "volatile",
+      "reactive"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "mantel_heat_interlaced_field_scan_line_thick",
+    "name": "Mantel Heat Interlaced Field Scan Line Thick",
+    "description": "A COMMON deterministic build using mantel_heat highlights, interlaced_field textures, and scan_line_thick motion behaviors.",
+    "accentColor": "mantel_heat",
+    "corruptionLevel": 0.33356160550784614,
+    "textureProfile": "interlaced_field",
+    "glyphBehavior": "scan_line_thick",
+    "promptVocabulary": [
+      "corroded",
+      "hardened",
+      "signal loss",
+      "reinforced",
+      "heavy-duty"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "ember_red_etched_brass_layout_column",
+    "name": "Ember Red Etched Brass Layout Column",
+    "description": "A COMMON deterministic build using ember_red highlights, etched_brass textures, and layout_column motion behaviors.",
+    "accentColor": "ember_red",
+    "corruptionLevel": 0.21196166321896126,
+    "textureProfile": "etched_brass",
+    "glyphBehavior": "layout_column",
+    "promptVocabulary": [
+      "encrypted",
+      "stealth",
+      "covert",
+      "classified",
+      "redacted"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "actinium_lume_snow_drift_layout_column",
+    "name": "Actinium Lume Snow Drift Layout Column",
+    "description": "A COMMON deterministic build using actinium_lume highlights, snow_drift textures, and layout_column motion behaviors.",
+    "accentColor": "actinium_lume",
+    "corruptionLevel": 0.16589587991414004,
+    "textureProfile": "snow_drift",
+    "glyphBehavior": "layout_column",
+    "promptVocabulary": [
+      "degraded",
+      "interrupted",
+      "ghosting",
+      "interference",
+      "static"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "frost_bite_grimy_plexiglass_brace_angle",
+    "name": "Frost Bite Grimy Plexiglass Brace Angle",
+    "description": "A COMMON deterministic build using frost_bite highlights, grimy_plexiglass textures, and brace_angle motion behaviors.",
+    "accentColor": "frost_bite",
+    "corruptionLevel": 0.08965344390489208,
+    "textureProfile": "grimy_plexiglass",
+    "glyphBehavior": "brace_angle",
+    "promptVocabulary": [
+      "degraded",
+      "interrupted",
+      "ghosting",
+      "interference",
+      "static"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "brass_shell_paint_drip_byte_reverse",
+    "name": "Brass Shell Paint Drip Byte Reverse",
+    "description": "A UNCOMMON deterministic build using brass_shell highlights, paint_drip textures, and byte_reverse motion behaviors.",
+    "accentColor": "brass_shell",
+    "corruptionLevel": 0.4580459929393693,
+    "textureProfile": "paint_drip",
+    "glyphBehavior": "byte_reverse",
+    "promptVocabulary": [
+      "hazardous",
+      "unstable",
+      "leaking",
+      "volatile",
+      "reactive"
+    ],
+    "rarity": "uncommon",
+    "approved": true
+  },
+  {
+    "id": "ray_trace_tempered_glass_signal_drop",
+    "name": "Ray Trace Tempered Glass Signal Drop",
+    "description": "A RARE deterministic build using ray_trace highlights, tempered_glass textures, and signal_drop motion behaviors.",
+    "accentColor": "ray_trace",
+    "corruptionLevel": 0.7256273492601109,
+    "textureProfile": "tempered_glass",
+    "glyphBehavior": "signal_drop",
+    "promptVocabulary": [
+      "overclocked",
+      "vibrant",
+      "saturated",
+      "luminescent",
+      "fluorescent"
+    ],
+    "rarity": "rare",
+    "approved": true
+  },
+  {
+    "id": "neon_violet_water_bead_buffer_stale",
+    "name": "Neon Violet Water Bead Buffer Stale",
+    "description": "A RARE deterministic build using neon_violet highlights, water_bead textures, and buffer_stale motion behaviors.",
+    "accentColor": "neon_violet",
+    "corruptionLevel": 0.7810874411734273,
+    "textureProfile": "water_bead",
+    "glyphBehavior": "buffer_stale",
+    "promptVocabulary": [
+      "degraded",
+      "interrupted",
+      "ghosting",
+      "interference",
+      "static"
+    ],
+    "rarity": "rare",
+    "approved": true
+  },
+  {
+    "id": "frequency_hertz_blood_spray_scan_line_slow",
+    "name": "Frequency Hertz Blood Spray Scan Line Slow",
+    "description": "A LEGENDARY deterministic build using frequency_hertz highlights, blood_spray textures, and scan_line_slow motion behaviors.",
+    "accentColor": "frequency_hertz",
+    "corruptionLevel": 0.8720509142338282,
+    "textureProfile": "blood_spray",
+    "glyphBehavior": "scan_line_slow",
+    "promptVocabulary": [
+      "overclocked",
+      "vibrant",
+      "saturated",
+      "luminescent",
+      "fluorescent"
+    ],
+    "rarity": "legendary",
+    "approved": true
+  },
+  {
+    "id": "flame_burst_vhs_tracking_header_corruption",
+    "name": "Flame Burst Vhs Tracking Header Corruption",
+    "description": "A COMMON deterministic build using flame_burst highlights, vhs_tracking textures, and header_corruption motion behaviors.",
+    "accentColor": "flame_burst",
+    "corruptionLevel": 0.241053029133052,
+    "textureProfile": "vhs_tracking",
+    "glyphBehavior": "header_corruption",
+    "promptVocabulary": [
+      "degraded",
+      "interrupted",
+      "ghosting",
+      "interference",
+      "static"
+    ],
+    "rarity": "common",
+    "approved": true
+  },
+  {
+    "id": "fission_rod_vulcanized_tread_ghost_echo",
+    "name": "Fission Rod Vulcanized Tread Ghost Echo",
+    "description": "A LEGENDARY deterministic build using fission_rod highlights, vulcanized_tread textures, and ghost_echo motion behaviors.",
+    "accentColor": "fission_rod",
+    "corruptionLevel": 0.8743982418862417,
+    "textureProfile": "vulcanized_tread",
+    "glyphBehavior": "ghost_echo",
+    "promptVocabulary": [
+      "overclocked",
+      "vibrant",
+      "saturated",
+      "luminescent",
+      "fluorescent"
+    ],
+    "rarity": "legendary",
+    "approved": true
+  },
+  {
+    "id": "capacitance_farad_macroblock_noise_hud_compass",
+    "name": "Capacitance Farad Macroblock Noise Hud Compass",
+    "description": "A RARE deterministic build using capacitance_farad highlights, macroblock_noise textures, and hud_compass motion behaviors.",
+    "accentColor": "capacitance_farad",
+    "corruptionLevel": 0.7868910194803063,
+    "textureProfile": "macroblock_noise",
+    "glyphBehavior": "hud_compass",
+    "promptVocabulary": [
+      "encrypted",
+      "stealth",
+      "covert",
+      "classified",
+      "redacted"
+    ],
+    "rarity": "rare",
+    "approved": true
+  },
+  {
+    "id": "diamond_cut_toxic_waste_glitch_contrast",
+    "name": "Diamond Cut Toxic Waste Glitch Contrast",
+    "description": "A UNCOMMON deterministic build using diamond_cut highlights, toxic_waste textures, and glitch_contrast motion behaviors.",
+    "accentColor": "diamond_cut",
+    "corruptionLevel": 0.4726781221222552,
+    "textureProfile": "toxic_waste",
+    "glyphBehavior": "glitch_contrast",
+    "promptVocabulary": [
+      "corroded",
+      "hardened",
+      "signal loss",
+      "reinforced",
+      "heavy-duty"
+    ],
+    "rarity": "uncommon",
+    "approved": true
+  },
+  {
+    "id": "flame_burst_polycarbonate_shell_scan_line_inverse",
+    "name": "Flame Burst Polycarbonate Shell Scan Line Inverse",
+    "description": "A UNCOMMON deterministic build using flame_burst highlights, polycarbonate_shell textures, and scan_line_inverse motion behaviors.",
+    "accentColor": "flame_burst",
+    "corruptionLevel": 0.6034149435884418,
+    "textureProfile": "polycarbonate_shell",
+    "glyphBehavior": "scan_line_inverse",
+    "promptVocabulary": [
+      "hazardous",
+      "unstable",
+      "leaking",
+      "volatile",
+      "reactive"
+    ],
+    "rarity": "uncommon",
+    "approved": true
+  },
+  {
+    "id": "pulse_width_raster_line_motion_zigzag",
+    "name": "Pulse Width Raster Line Motion Zigzag",
+    "description": "A COMMON deterministic build using pulse_width highlights, raster_line textures, and motion_zigzag motion behaviors.",
+    "accentColor": "pulse_width",
+    "corruptionLevel": 0.0072183289588647614,
+    "textureProfile": "raster_line",
+    "glyphBehavior": "motion_zigzag",
+    "promptVocabulary": [
+      "degraded",
+      "interrupted",
+      "ghosting",
+      "interference",
+      "static"
+    ],
+    "rarity": "common",
+    "approved": true
+  }
+]

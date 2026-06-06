@@ -1,0 +1,52 @@
+{
+  "name": "anarchi-visual-engine",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/out/server.js",
+  "bin": "dist/out/server.js",
+  "scripts": {
+    "validate:partsbin": "ts-node-esm src/core/library/validatePartsBin.ts",
+    "cleanup": "ts-node-esm cleanup.ts",
+    "cleanup:dry": "ts-node-esm cleanup.ts --dry-run",
+    "compile": "tsc --pretty --listEmittedFiles",
+    "build": "npm run validate:partsbin && npm run cleanup && npm run compile",
+    "generate-themes": "npm run validate:partsbin && ts-node-esm src/core/library/themeGenerator.ts",
+    "gui": "ts-node-esm server.ts",
+    "package": "npm run build && pkg . --targets node18-win-x64 --out-path bin && rcedit bin/anarchi-visual-engine.exe --set-icon src/assets/icon.ico",
+    "virustotal": "ts-node-esm virustotal-upload.ts",
+    "sign": "signtool sign /fd SHA256 /f \"%CERT_PATH%\" /p \"%CERT_PASSWORD%\" /tr https://timestamp.digicert.com /td SHA256 bin/anarchi-visual-engine.exe",
+    "release": "npm run package && npm run sign && node -e \"const fs=require('fs'), crypto=require('crypto'); const id=crypto.randomBytes(8).toString('hex'); const d='./releases/v'+process.env.npm_package_version+'-'+id; if(!fs.existsSync(d))fs.mkdirSync(d,{recursive:true}); fs.copyFileSync('./bin/anarchi-visual-engine.exe', d+'/anarchi-visual-engine.exe'); console.log('Release ' + d + ' finalized.');\" && npm run virustotal",
+    "unsigned-release": "npm run package && node -e \"const fs=require('fs'), crypto=require('crypto'); const id=crypto.randomBytes(8).toString('hex'); const d='./releases/v'+process.env.npm_package_version+'-unsigned-'+id; if(!fs.existsSync(d))fs.mkdirSync(d,{recursive:true}); fs.copyFileSync('./bin/anarchi-visual-engine.exe', d+'/anarchi-visual-engine.exe');\" && npm run virustotal"
+  },
+  "pkg": {
+    "assets": [
+      "public/**/*",
+      "src/**/*.json",
+      "src/**/*.css",
+      "LICENSE.txt",
+      "README.md",
+      "node_modules/puppeteer/.local-chromium/**/*"
+    ]
+  },
+  "dependencies": {
+    "archiver": "^7.0.1",
+    "express": "^4.21.0",
+    "puppeteer": "^24.15.0",
+    "puppeteer-screen-recorder": "^3.0.3",
+    "wireit": "^0.14.12"
+  },
+  "overrides": {
+    "puppeteer-screen-recorder": {
+      "puppeteer": "$puppeteer"
+    }
+  },
+  "devDependencies": {
+    "@types/archiver": "^6.0.2",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.0.0",
+    "pkg": "^5.8.1",
+    "rcedit": "^4.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.0.0"
+  }
+}

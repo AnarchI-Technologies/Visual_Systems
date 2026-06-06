@@ -1,0 +1,11 @@
+{
+  "accents": ["Electric_Violet", "Acid_Green", "Cobalt_Flux"],
+  "textures": ["Heavy_Grain", "Scanline_Grid", "Carbon_Fiber"],
+  "behaviors": ["Strobe_Flicker", "Smooth_Drift", "Glitch_Step"],
+  "vocabularies": {
+    "industrial": ["Warning", "Hazard", "Protocol"],
+    "cyber": ["Uplink", "Node", "Proxy"],
+    "corrupted": ["ERROR", "NULL", "VOID"]
+  },
+  "behavior_css": {}
+}

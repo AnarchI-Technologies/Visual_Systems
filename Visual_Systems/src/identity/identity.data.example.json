@@ -1,0 +1,11 @@
+{
+  "#_instruction_1": "# COPY THIS FILE TO identity.json TO INITIALIZE YOUR BRAND #",
+  "#_instruction_2": "# FILL IN THE FIELDS BELOW WITH YOUR SPECIFIC DNA #",
+  "#_instruction_3": "# ACCENTS: KEY IS THE COLOR ID, VALUE IS THE HEX CODE #",
+  "NAME": "",
+  "SYSTEM_VERSION": "",
+  "GLYPH_SYSTEM": "",
+  "CORE_PHILOSOPHY": "",
+  "COPYRIGHT_HOLDER": "",
+  "ACCENTS": {}
+}
