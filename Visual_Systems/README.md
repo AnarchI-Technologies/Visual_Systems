@@ -18,6 +18,7 @@ npm run gui
 
 - Deterministic visual states calculated from numeric instability profiles.
 - Rarity and marketplace metadata for packaged asset drops.
+- Sellable offer ladders for starter, pro, and studio packaging.
 - Plug-and-play brand identity through `src/identity/identity.data.json`.
 - Validation tests for generated assets and deterministic CSS output.
 - Release scripts that run tests before packaging.

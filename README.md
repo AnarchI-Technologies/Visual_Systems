@@ -25,6 +25,7 @@ npm run gui
 - Rarity tiers for asset and pricing variation.
 - JSON-driven identity swaps for fast rebranding.
 - Presentation-safe asset factory architecture.
+- Marketplace offer-ladder generation for productized visual packs.
 - Authored test harness for deterministic output and asset validation.
 
 ## Production Notes

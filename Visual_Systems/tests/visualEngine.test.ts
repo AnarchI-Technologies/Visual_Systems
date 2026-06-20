@@ -4,7 +4,9 @@ import * as os from "node:os";
 import * as path from "node:path";
 
 import { calculateVisualState } from "../src/core/engine";
+import { createThemeBatch } from "../src/core/library/themeGenerator";
 import { validateDrop } from "../src/core/validation/assetValidator";
+import { buildOfferLadder } from "../src/marketplace/offerBuilder";
 import type { DropManifest } from "../src/schema";
 
 const manifest: DropManifest = {
@@ -86,8 +88,27 @@ function testValidationPassesWhenEnabledAssetsExist() {
   assert.deepEqual(result.missingFiles, []);
 }
 
+function testThemeGenerationIsSeedDeterministic() {
+  const first = createThemeBatch(3, "investor-proof-seed");
+  const second = createThemeBatch(3, "investor-proof-seed");
+
+  assert.deepEqual(first, second);
+}
+
+function testOfferLadderTurnsManifestIntoSellableTiers() {
+  const offers = buildOfferLadder(manifest);
+
+  assert.deepEqual(offers.map((offer) => offer.tier), ["starter", "pro", "studio"]);
+  assert.ok(offers[0].priceUsd < offers[1].priceUsd);
+  assert.ok(offers[1].priceUsd < offers[2].priceUsd);
+  assert.equal(offers[0].deliverables.length, 1);
+  assert.match(offers[2].sku, /ANARCHI-TEST-001-STUDIO/);
+}
+
 testVisualStateIsDeterministic();
 testValidationFindsMissingEnabledAssets();
 testValidationPassesWhenEnabledAssetsExist();
+testThemeGenerationIsSeedDeterministic();
+testOfferLadderTurnsManifestIntoSellableTiers();
 
 console.log("[tests] visual engine deterministic checks passed");
