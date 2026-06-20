@@ -3,9 +3,11 @@ import * as fs from "fs";
 import * as path from "path";
 import { exec } from "child_process";
 import { runBuild } from "./main";
+import { fileURLToPath } from "url";
 
 const app = express();
 const port = 3000;
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "public")));
@@ -31,10 +33,10 @@ app.post("/api/build", (req, res) => {
   console.log(`[GUI] Triggering build: ${dropName} (${themeId})`);
   
   runBuild(dropName, themeId, intensity, "GUI", tier)
-    .then(result => {
+    .then((result: { manifestId: string }) => {
       res.json({ success: true, log: `Build Successful: ${result.manifestId}` });
     })
-    .catch(err => {
+    .catch((err: Error) => {
       console.error(err);
       res.status(500).json({ success: false, error: err.message });
     });

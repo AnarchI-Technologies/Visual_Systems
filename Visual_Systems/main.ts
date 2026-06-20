@@ -9,7 +9,7 @@ import { buildPackage } from "./src/packaging/packager";
 import { validateDrop } from "./src/core/validation/assetValidator";
 import { VisualPreviewer } from "./src/core/validation/previewer";
 import { ThemeLibrary } from "./src/core/library/themeLibrary";
-import { buildLogger, BuildStep } from "./src/core/utils/logger";
+import { buildLogger, BuildStep } from "./logger";
 import puppeteer from "puppeteer";
 
 /**

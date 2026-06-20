@@ -1,0 +1,7 @@
+Visual_Systems/node_modules/
+Visual_Systems/dist/
+Visual_Systems/bin/
+Visual_Systems/releases/
+Visual_Systems/delete/
+Visual_Systems/src/identity/identity.data.json
+*.log

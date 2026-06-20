@@ -1,13 +1,14 @@
 import * as fs from "fs";
 import * as path from "path";
+import { fileURLToPath } from "url";
 
 /**
  * Workspace Cleanup Tool
- * Moves identified redundant files to a 'delete' folder.
+ * Dry-runs by default. Use --apply to move identified redundant files to a delete folder.
  */
 export function cleanupWorkspace() {
   const deleteDir = path.join(process.cwd(), "delete");
-  const isDryRun = process.argv.includes("--dry-run");
+  const isDryRun = !process.argv.includes("--apply");
 
   if (!fs.existsSync(deleteDir)) {
     fs.mkdirSync(deleteDir, { recursive: true });
@@ -22,7 +23,7 @@ export function cleanupWorkspace() {
     "overlayCompiler.ts"
   ];
 
-  console.log(`\n[CLEANUP] Starting workspace audit${isDryRun ? " (DRY RUN)" : ""}...`);
+  console.log(`\n[CLEANUP] Starting workspace audit${isDryRun ? " (DRY RUN)" : " (APPLY)"}...`);
 
   targets.forEach(target => {
     const fullPath = path.join(process.cwd(), target);
@@ -39,6 +40,6 @@ export function cleanupWorkspace() {
   console.log(`[CLEANUP] Workspace optimized.\n`);
 }
 
-if (require.main === module) {
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
   cleanupWorkspace();
 }

@@ -6,6 +6,9 @@
 
 import * as fs from "fs";
 import * as path from "path";
+import { fileURLToPath } from "url";
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const binPath = path.join(__dirname, "partsBin.data.json");
 let binData: any = {};

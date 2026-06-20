@@ -1,4 +1,5 @@
 import * as fs from "fs";
+import * as path from "path";
 import { DropManifest } from "../../schema";
 
 export interface ValidationResult {
@@ -22,9 +23,7 @@ export function validateDrop(
   const missingFiles =
     requiredFiles.filter(
       file =>
-        !fs.existsSync(
-          `${directory}/${file}`
-        )
+        !fs.existsSync(path.join(directory, file))
     );
 
   return {

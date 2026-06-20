@@ -7,7 +7,9 @@
 
 import * as fs from "fs";
 import * as path from "path";
+import { fileURLToPath } from "url";
 
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const identityPath = path.join(__dirname, "identity.data.json");
 let identityDNA: any = {};
 

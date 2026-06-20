@@ -1,12 +1,14 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "module": "NodeNext",
+    "module": "ESNext",
     "lib": ["ESNext", "DOM"],
-    "moduleResolution": "NodeNext",
+    "moduleResolution": "Bundler",
     "strict": true,
     "sourceMap": true,
     "outDir": "dist/out",
+    "baseUrl": ".",
+    "noEmitOnError": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
@@ -15,6 +17,6 @@
       "@/*": ["src/*"]
     }
   },
-  "include": ["src/**/*", "main.ts", "promptgenerator.ts", "server.ts", "cleanup.ts", "virustotal-upload.ts"],
+  "include": ["src/**/*", "main.ts", "promptgenerator.ts", "server.ts", "cleanup.ts", "virustotal-upload.ts", "tests/**/*"],
   "exclude": ["node_modules", "dist", "delete"]
 }
