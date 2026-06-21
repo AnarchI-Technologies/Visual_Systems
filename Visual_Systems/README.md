@@ -11,6 +11,7 @@ npm install
 copy src\identity\identity.data.example.json src\identity\identity.data.json
 npm test
 npm run build
+npm run market:demo
 npm run gui
 ```
 
@@ -22,6 +23,15 @@ npm run gui
 - Plug-and-play brand identity through `src/identity/identity.data.json`.
 - Validation tests for generated assets and deterministic CSS output.
 - Release scripts that run tests before packaging.
+- A no-Puppeteer market-ready build path that emits assets, marketplace listing copy, customer README, checksums, offer tiers, and a ZIP package.
+
+## Sell Immediately
+
+```bash
+npm run preflight:market
+```
+
+The market-ready ZIP is emitted under `dist/market-ready/release/`.
 
 ## Safety
 

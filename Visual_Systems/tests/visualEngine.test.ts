@@ -7,6 +7,7 @@ import { calculateVisualState } from "../src/core/engine";
 import { createThemeBatch } from "../src/core/library/themeGenerator";
 import { validateDrop } from "../src/core/validation/assetValidator";
 import { buildOfferLadder } from "../src/marketplace/offerBuilder";
+import { buildMarketReadyKit } from "../src/marketplace/marketReadyKit";
 import type { DropManifest } from "../src/schema";
 
 const manifest: DropManifest = {
@@ -105,10 +106,26 @@ function testOfferLadderTurnsManifestIntoSellableTiers() {
   assert.match(offers[2].sku, /ANARCHI-TEST-001-STUDIO/);
 }
 
+function testMarketReadyKitWritesListingAndChecksums() {
+  const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "anarchi-market-"));
+  const assets = path.join(tmp, "assets");
+  fs.mkdirSync(assets);
+  fs.writeFileSync(path.join(assets, "theme.css"), ":root{}");
+  fs.writeFileSync(path.join(assets, "starting-soon.html"), "<html></html>");
+
+  const kit = buildMarketReadyKit(manifest, buildOfferLadder(manifest), assets, path.join(tmp, "kit"));
+
+  assert.ok(fs.existsSync(kit.listingMarkdown));
+  assert.ok(fs.existsSync(kit.listingJson));
+  assert.ok(fs.existsSync(kit.customerReadme));
+  assert.match(fs.readFileSync(kit.checksumManifest, "utf8"), /theme\.css/);
+}
+
 testVisualStateIsDeterministic();
 testValidationFindsMissingEnabledAssets();
 testValidationPassesWhenEnabledAssetsExist();
 testThemeGenerationIsSeedDeterministic();
 testOfferLadderTurnsManifestIntoSellableTiers();
+testMarketReadyKitWritesListingAndChecksums();
 
 console.log("[tests] visual engine deterministic checks passed");

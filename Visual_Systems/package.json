@@ -2,8 +2,10 @@
   "name": "anarchi-visual-engine",
   "version": "1.0.0",
   "type": "module",
-  "main": "dist/out/server.js",
-  "bin": "dist/out/server.js",
+  "main": "dist/out/src/cli.js",
+  "bin": {
+    "anarchi-visual-engine": "dist/out/src/cli.js"
+  },
   "scripts": {
     "validate:partsbin": "ts-node-esm src/core/library/validatePartsBin.ts",
     "cleanup": "ts-node-esm cleanup.ts",
@@ -11,13 +13,15 @@
     "test": "npm run validate:partsbin && node --loader ts-node/esm --experimental-specifier-resolution=node tests/visualEngine.test.ts",
     "compile": "tsc --pretty --listEmittedFiles",
     "build": "npm run validate:partsbin && npm run compile",
+    "market:demo": "npm run build && node dist/out/src/cli.js",
+    "preflight:market": "npm test && npm run market:demo && npm run package",
     "generate-themes": "npm run validate:partsbin && ts-node-esm src/core/library/themeGenerator.ts",
     "gui": "ts-node-esm server.ts",
     "package": "npm run test && npm run build && npm pack --dry-run",
     "virustotal": "ts-node-esm virustotal-upload.ts",
     "sign": "signtool sign /fd SHA256 /f \"%CERT_PATH%\" /p \"%CERT_PASSWORD%\" /tr https://timestamp.digicert.com /td SHA256 bin/anarchi-visual-engine.exe",
-    "release": "npm run package",
-    "unsigned-release": "npm run package"
+    "release": "npm run preflight:market",
+    "unsigned-release": "npm run preflight:market"
   },
   "dependencies": {
     "archiver": "^7.0.1",

@@ -1,4 +1,4 @@
-import type { AssetDefinition, DropManifest } from "../schema";
+import type { AssetDefinition, DropManifest } from "../schema.js";
 
 export type OfferTier = "starter" | "pro" | "studio";
 

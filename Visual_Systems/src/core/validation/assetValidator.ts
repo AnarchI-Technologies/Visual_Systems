@@ -1,6 +1,6 @@
 import * as fs from "fs";
 import * as path from "path";
-import { DropManifest } from "../../schema";
+import type { DropManifest } from "../../schema.js";
 
 export interface ValidationResult {
 

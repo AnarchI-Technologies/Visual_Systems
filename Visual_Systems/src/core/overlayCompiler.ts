@@ -1,7 +1,7 @@
-import { DropManifest, AssetDefinition } from "../schema";
-import { ACCENT_MAP, BRAND_IDENTITY } from "../identity/brand";
-import { BEHAVIOR_CSS_MAP } from "./library/partsBin";
-import { calculateVisualState } from "./engine";
+import type { DropManifest, AssetDefinition } from "../schema.js";
+import { ACCENT_MAP, BRAND_IDENTITY } from "../identity/brand.js";
+import { BEHAVIOR_CSS_MAP } from "./library/partsBin.js";
+import { calculateVisualState } from "./engine.js";
 import * as fs from "fs";
 import * as path from "path";
 

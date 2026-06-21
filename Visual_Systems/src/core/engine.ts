@@ -1,4 +1,4 @@
-import { CorruptionProfile } from "../schema";
+import type { CorruptionProfile } from "../schema.js";
 
 /**
  * ANARCHI DETERMINISTIC VISUAL ENGINE

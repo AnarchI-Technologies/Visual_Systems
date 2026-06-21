@@ -1,5 +1,5 @@
-import { DropManifest } from "../schema";
-import { BRAND_IDENTITY } from "../identity/brand";
+import type { DropManifest } from "../schema.js";
+import { BRAND_IDENTITY } from "../identity/brand.js";
 
 export function createDropManifest(
   name: string,
